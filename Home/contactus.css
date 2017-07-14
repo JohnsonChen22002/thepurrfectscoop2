@@ -1,0 +1,47 @@
+#brand {
+    font-weight:bold;
+    font-size:50;
+    color:black;
+    background-color:#78A5A3;
+    border:2px solid black;
+    font-family: Oswald;
+}
+
+#main-nav li{
+    background-color: #044455;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    
+    background-color: #6FB98F;
+}
+
+/*div {*/
+/*    background-color: #C4DFE6;*/
+/*}*/
+
+
+
+img {
+    width:735px;
+    border:2px solid black;
+    margin-top: 100px;
+}
+
+#map {
+      height: 500px;
+      margin-top: 85px;
+       }
+    
+.jumbotron {
+     color:black;
+     border-radius:2px 2px 2px 2px;
+     font-size:30px;
+     margin-top: 83px;
+     height: 500px;
+}
+

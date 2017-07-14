@@ -1,0 +1,67 @@
+#brand {
+    font-weight:bold;
+    font-size:25px;
+    color:black;
+    background-color:#78A5A3;
+    border:2px solid black;
+    font-family: Oswald;
+    text-align:center;
+}
+
+#main-nav li{
+    background-color: #044455;
+}
+
+
+.jumbotron {
+     padding: 10px;
+     color:black;
+     padding:100px;
+     border-radius:2px 2px 2px 2px;
+     font-size:30px;
+     width:100%;
+     border:4px #6FB98F solid;
+     border-radius:3px 3px 3px 3px;
+}
+
+body {
+    
+    background-color: #6FB98F;
+}
+
+div {
+    background-color: #C4DFE6;
+}
+    
+
+.color{
+    color:white;
+    
+}
+
+h2 {
+    font-family:oswald;
+    margin:20px;
+    color:black;
+    padding:20px;
+    font-size:80px;
+    border:3px black solid;
+    border-style:double hidden double hidden;
+    text-align:center;
+}
+
+#jumboinfo{
+    margin:20px;
+    padding-right:20px;
+    font-family:indie flower;
+    font-size:30px;
+    text-align:center;
+}
+
+.navbar{
+    text-align:center;
+}
+
+.bs-example{
+    margin-top:0px;
+}
