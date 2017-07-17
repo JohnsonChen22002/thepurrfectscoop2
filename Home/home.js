@@ -5,5 +5,5 @@ $('ul li').click(function() {
     clicked_tab.parent().children('li').not(clicked_tab).removeClass('active');
 });
 
-$('#myCarousel').carousel()
-});
+$('#myCarousel').carousel();
+

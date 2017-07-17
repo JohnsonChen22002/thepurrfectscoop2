@@ -1,10 +1,11 @@
 #brand {
     font-weight:bold;
-    font-size:50;
+    font-size:25px;
     color:black;
     background-color:#78A5A3;
     border:2px solid black;
     font-family: Oswald;
+    text-align:center;
 }
 
 #main-nav li{
@@ -19,12 +20,6 @@ body {
     
     background-color: #6FB98F;
 }
-
-/*div {*/
-/*    background-color: #C4DFE6;*/
-/*}*/
-
-
 
 img {
     width:735px;
@@ -45,3 +40,6 @@ img {
      height: 500px;
 }
 
+#navcolor {
+           background-color: #C4DFE6;
+}
