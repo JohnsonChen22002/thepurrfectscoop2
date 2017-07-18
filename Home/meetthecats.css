@@ -31,17 +31,6 @@ body {
 div {
     background-color: #C4DFE6;
 }
-    
-h2 {
-    font-family:oswald;
-    margin:20px;
-    color:black;
-    padding:20px;
-    font-size:50px;
-    border:3px black solid;
-    border-style:double hidden double hidden;
-    text-align: center
-}
 
 p{
     margin:20px;
@@ -50,8 +39,12 @@ p{
     font-size:30px;
 }
 
-img {
-    width: 200px;
+.catimg {
+    width: 300px;
+    margin:40px;
+    margin-top:80px;
+    margin-left:230px;
+    border:2px double black;
 }
 
 .card{
@@ -63,3 +56,20 @@ img {
 nav navbar-nav {
     text-align:center;
 }
+
+.col-md-6 {
+    
+} 
+
+#harriet {
+    
+}
+
+#marvin{
+    margin-left:50%;
+    margin:0px;
+}
+
+
+
+
