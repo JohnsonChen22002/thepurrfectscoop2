@@ -107,6 +107,7 @@ p {
 
 #adopt {
     border: 2px solid black;
+    text-align: center;
 }
 
 #adopttext {
@@ -132,6 +133,11 @@ p {
 
 .glyphicon {
  
+}
+
+#catadopt{
+    border:2px black solid;
+    margin-top:100px;
 }
 
 
