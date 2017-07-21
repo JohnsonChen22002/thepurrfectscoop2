@@ -1,0 +1,137 @@
+#brand {
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    background-color: #78A5A3;
+    border: 2px solid black;
+    font-family: Oswald;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    font-style: italic;
+    text-shadow: 1px 2px white;
+}
+
+#main-nav li {
+    background-color: #044455;
+    margin-left: 110px;
+    margin-top: 5px;
+    font-style: italic;
+    font-family: oswald;
+    font-size: 19px;
+    text-shadow: 1px 2px black;
+    color: white;
+}
+
+#navblue {
+    background-color: #044455;
+}
+
+#catadopttext {
+    font-size: 35px;
+    font-family: indie flower;
+}
+
+body {
+    background-color: #6FB98F;
+}
+
+.color {
+    color: white;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: oswald;
+    margin: 20px;
+    color: black;
+    padding: 30px;
+    font-size: 100px;
+    border: 3px black solid;
+    border-style: double hidden double hidden;
+    font-style: italic;
+}
+
+p {
+    margin: 20px;
+    padding-right: 20px;
+    font-family: indie flower;
+    font-size: 30px;
+}
+
+.panel-title {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+    font-family: oswald;
+    font-style: italic;
+}
+
+#reasons {
+    border: 2px solid black;
+    height: 410px;
+}
+
+.reasons {
+    font-size: 25px;
+
+}
+
+.reasons2 {
+    font-size: 25px;
+    margin:15px;
+    padding:0px;
+}
+
+.reasonbtn {
+    font-size: 15px;
+    margin: 1px;
+    border: 2px solid black;
+    font-style: italic;
+    font-family: oswald;
+}
+
+#reasonbtn {
+    font-size: 15px;
+    margin: 1px;
+    border: 2px solid black;
+    font-style: italic;
+    font-family: oswald;
+}
+
+#misconceptions {
+    border: 2px solid black;
+}
+
+#adopt {
+    border: 2px solid black;
+}
+
+#adopttext {
+    font-size: 27px;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    font-family: indie flower;
+    font-style: italic;
+}
+
+.btn {
+    font-size: oswald;
+    font-style: italic;
+    margin: 4px;
+    padding: 3px;
+}
+
+#modaltextbox {
+    font-size: 30px;
+    font-family: indie flower;
+}
+
+.glyphicon {
+ 
+}
+
+

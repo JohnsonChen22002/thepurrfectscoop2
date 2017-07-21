@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    console.log('wowowow')
     function initMap() {
         var uluru = {lat: 40.7561122, lng: -73.9874107};
         var map = new google.maps.Map(document.getElementById('map'), {

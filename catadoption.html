@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<!----------------------------------------------------------------------------------------------------------------->
+
+<head>
+  <!--LINKS-->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <link rel="stylesheet" type="text/css" href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>
+  <link rel="stylesheet" type="text/css" href="styles/catadoption.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!--LINKS-->
+  <title>The Purrfect Scoop</title>
+</head>
+
+<body style="background-image:url(http://blog.fairwaymarket.com/wp-content/uploads/2014/03/ice-cream-scoops-many-colors.jpg)">
+  <!----------------------------------------------------------------------------------------------------------------->
+
+  <!--NAVATION BAR-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div id="navblue" class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" id="brand">The Purrfect Scoop</a>
+      </div>
+  
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  
+        <ul id="main-nav" class="nav navbar-nav">
+          <li class="color"><a href="index.html">Home</a></li>
+          <li><a href="meetthecats.html">Meet the Cats!</a></li>
+          <li class="active"><a href="catadoption.html">Cat Adoption</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+  
+    </div>
+  </nav>
+  <!--NAVATION BAR-->
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <div class='container'>
+    
+    <div class='row'>
+      <!--CAT ADOPT JUMBO-->
+            <div class='col-sm-12'>
+
+      <div class="jumbotron" id="catadopt">
+        <h1>Cat Adoption</h1>
+        <p id="catadopttext">At the Purrfect Scoop, we are committed to promoting the importance of cat adoption and providing resources for visitors to learn more.
+        </p>
+      </div>
+            </div>
+
+      <!--CAT ADOPT JUMBO-->
+    </div>
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <div class='row'>
+      <div class='col-sm-6'>
+        <div id="reasons" class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Main Reasons why to adopt a cat!</h3>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li class="reasons2 glyphicon glyphicon-ice-lolly-tasted">You will save a life</li>
+              <li class="reasons2 glyphicon glyphicon-ice-lolly-tasted">It will cost you less</li>
+              <li class="reasons2 glyphicon glyphicon-ice-lolly-tasted">Your home will provide a better place for your cat</li>
+      
+      
+      
+              <button type="button" id="reasonbtn" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal1">More</button>
+              <div id="myModal1" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p>
+                        <ul id="modaltextbox">
+                          <li class="glyphicon glyphicon-ice-lolly-tasted">You'll get a great animal.</li>
+                          <li class="glyphicon glyphicon-ice-lolly-tasted">You'll get bragging rights.</li>
+                          <li class="glyphicon glyphicon-ice-lolly-tasted">All pets are good for your health, but adoptees offer an extra boost.</li>
+                          <li class="glyphicon glyphicon-ice-lolly-tasted">The Shelter Pet Project makes it easy.</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class='col-sm-6'>
+        <div id="misconceptions" class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">Misconceptions about Cat Adoption</h3>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li class="reasons glyphicon glyphicon-ice-lolly-tasted">"Shelter pets have to much baggage"</li>
+              <button type="button" class="reasonbtn btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">Solution</button>
+              <div id="myModal2" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p id="modaltextbox2">
+                        Rescued pets have full histories - something that can actually be GREAT for adopters.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <li class="reasons glyphicon glyphicon-ice-lolly-tasted">"I cant find what I want at a shelter"</li>
+              <button type="button" class="reasonbtn btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">Solution</button>
+              <div id="myModal3" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p id="modaltextbox3">
+                        At Petfinder.com, they can e-mail you when a pet that fits your criteria is posted.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <li class="reasons glyphicon glyphicon-ice-lolly-tasted">"I can get a free pet, so why pay an adoption fee"</li>
+              <button type="button" class="reasonbtn btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal4">Solution</button>
+              <div id="myModal4" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p id="modaltextbox4">According to the National Council on Pet Population Study and Policy (via the ASPCA), approximately 65% of pet parents in the U.S. get their pets for free or at low cost, and most pets are obtained from acquaintances or family members.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class='row'>
+      <div class='col-sm-12'>
+        <div id="adopt" class="panel panel-info">
+    <div class="panel-heading">
+      <h3 class="panel-title">Wanna Adopt A Cat?</h3>
+    </div>
+    <div class="panel-body">
+      <ul>
+        <a id="adopttext" href="https://www.aspca.org/nyc/aspca-adoption-center/adoptable-cats">Adopt Cat Here!</a>
+      </ul>
+    </div>
+  </div>
+      </div>
+    </div>
+    
+    <div class='row'>
+      
+    </div>
+  </div>
+  
+  
+    <!--<h1>Cat Adoption</h1>-->
+    <!--<p>At the Purrfect Scoop, we are committed to promoting the importance of cat adoption and providing resources for visitors to learn more.-->
+    <!--</p>-->
+  
+
+</body>
+
+</html>
+
+<!--http://www.humanesociety.org/issues/adopt/tips/top_reasons_adopt.html?referrer=https://www.google.com/-->
+<!--https://www.petfinder.com/pet-adoption/pet-adoption-information/misconceptions-pet-adoption/-->
+<!--https://www.aspca.org/nyc/aspca-adoption-center/adoptable-cats-->
