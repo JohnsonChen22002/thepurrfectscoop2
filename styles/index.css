@@ -6,20 +6,21 @@
     border: 2px solid black;
     font-family: Oswald;
     text-align: center;
-    width:300px;
+    width: 300px;
     height: 60px;
-    font-style:italic;
-    text-shadow:1px 2px white;
+    font-style: italic;
+    text-shadow: 1px 2px white;
 }
 
-#main-nav li{
+#main-nav li {
     background-color: #044455;
     margin-left: 110px;
     margin-top: 5px;
-    font-style:italic;
-    font-family:oswald;
-    font-size:19px;
-    border:1px 2px white;
+    font-style: italic;
+    font-family: oswald;
+    font-size: 19px;
+    text-shadow: 1px 2px black;
+    color: white;
 }
 
 #mainjumbo {
@@ -27,7 +28,7 @@
     font-size: 30px;
     width: 1200px;
     margin-top: 80px;
-    margin-left: 30px;
+    margin-left: 85px;
     border: 2px solid black;
 }
 
